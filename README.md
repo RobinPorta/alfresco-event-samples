@@ -12,3 +12,5 @@ Simple POC for Alfresco Event API SDK
             - 8161:8161
             - 61616:61616
     ~~~
+
+For more implementation infos read the [Alfresco Docs](https://docs.alfresco.com/content-services/latest/develop/oop-sdk/#java-event-api)
