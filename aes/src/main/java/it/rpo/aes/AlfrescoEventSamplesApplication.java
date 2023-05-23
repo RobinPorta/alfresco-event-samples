@@ -1,4 +1,4 @@
-package it.rpo.aee;
+package it.rpo.aes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

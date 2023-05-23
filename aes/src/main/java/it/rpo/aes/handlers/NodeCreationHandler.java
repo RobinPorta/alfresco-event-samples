@@ -1,4 +1,4 @@
-package it.rpo.aee.handlers;
+package it.rpo.aes.handlers;
 
 import org.alfresco.event.sdk.handling.filter.EventFilter;
 import org.alfresco.event.sdk.handling.filter.IsFileFilter;
