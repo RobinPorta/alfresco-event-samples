@@ -2,6 +2,7 @@ package it.rpo.aes.handlers;
 
 import org.alfresco.event.sdk.handling.filter.EventFilter;
 import org.alfresco.event.sdk.handling.filter.IsFileFilter;
+import org.alfresco.event.sdk.handling.filter.NodeTypeFilter;
 import org.alfresco.event.sdk.handling.handler.OnNodeCreatedEventHandler;
 import org.alfresco.event.sdk.model.v1.model.DataAttributes;
 import org.alfresco.event.sdk.model.v1.model.NodeResource;
@@ -31,7 +32,8 @@ public class NodeCreationHandler implements OnNodeCreatedEventHandler {
 	}
 	
     public EventFilter getEventFilter() {
-        return IsFileFilter.get();
+        return IsFileFilter.get()
+        		.and(NodeTypeFilter.of("cm:content"));
     }
 
 }
