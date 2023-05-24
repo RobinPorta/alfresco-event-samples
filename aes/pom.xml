@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>it.rpo</groupId>
-	<artifactId>poc-alfresco-external-sdk</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>poc-alfresco-external-sdk</name>
-	<description>Proof of Concept Project for Alfresco out-of-process SDK</description>
+	<artifactId>aes</artifactId>
+	<version>1.0.0</version>
+	<name>alfresco-event-samples</name>
+	<description>PoC Project for Alfresco Event out-of-process SDK</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
